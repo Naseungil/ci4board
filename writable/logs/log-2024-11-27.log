@@ -1,0 +1,214 @@
+CRITICAL - 2024-11-27 02:49:10 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: about]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:49:17 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:49:21 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:49:23 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:49:47 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:49:48 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:49:48 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:49:48 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:11 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:13 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:20 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:22 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:24 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:24 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:24 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:24 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:24 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:25 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:25 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:25 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:50:25 --> ErrorException: Cannot redeclare App\Controllers\Home::about()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 02:56:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "list.php"
+[Method: GET, Route: board]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('list', [], true)
+ 3 APPPATH\Controllers\Board.php(9): view('list')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 03:47:29 --> Error: Call to undefined function App\Controllers\render()
+[Method: GET, Route: board]
+in APPPATH\Controllers\Board.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 04:18:24 --> ErrorException: Undefined variable $data
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 3.
+ 1 APPPATH\Views\board_list.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\nsi\\ci4_board\\app\\Views\\board_list.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\nsi\\ci4_board\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(7): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(15): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 05:40:05 --> ErrorException: Undefined variable $lis
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 22.
+ 1 APPPATH\Views\board_list.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lis', 'E:\\nsi\\ci4_board\\app\\Views\\board_list.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\nsi\\ci4_board\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(7): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(15): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 05:40:46 --> ErrorException: Undefined variable $lis
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 19.
+ 1 APPPATH\Views\board_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lis', 'E:\\nsi\\ci4_board\\app\\Views\\board_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\nsi\\ci4_board\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(7): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(15): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 05:41:03 --> ErrorException: Undefined variable $lis
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 19.
+ 1 APPPATH\Views\board_list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lis', 'E:\\nsi\\ci4_board\\app\\Views\\board_list.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\nsi\\ci4_board\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(7): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(15): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 05:41:11 --> ErrorException: Undefined variable $lis
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 18.
+ 1 APPPATH\Views\board_list.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lis', 'E:\\nsi\\ci4_board\\app\\Views\\board_list.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\nsi\\ci4_board\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(7): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(15): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 05:42:42 --> ErrorException: Undefined variable $lis
+[Method: GET, Route: board]
+in APPPATH\Views\board_list.php on line 18.
+ 1 APPPATH\Views\board_list.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lis', 'E:\\nsi\\ci4_board\\app\\Views\\board_list.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\nsi\\ci4_board\\app\\Views\\board_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('board_list', [], true)
+ 5 APPPATH\Helpers\render_helper.php(7): view('board_list', [...], [])
+ 6 APPPATH\Controllers\Board.php(15): render('board_list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
+CRITICAL - 2024-11-27 05:49:04 --> ErrorException: Undefined variable $data
+[Method: GET, Route: board]
+in APPPATH\Controllers\Board.php on line 15.
+ 1 APPPATH\Controllers\Board.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\nsi\\ci4_board\\app\\Controllers\\Board.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Board->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\nsi\\ci4_board\\public\\index.php')
