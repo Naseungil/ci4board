@@ -1,9 +1,6 @@
 
 
 <h1>글 상세</h1>
-<?php
-  print_r($view);
-?>
 <article>
   <h3><?=$view->subject?></h3>
   <p>작성일:<?=$view->regdate?> / 작성자:<?=$view->userid?></p>
